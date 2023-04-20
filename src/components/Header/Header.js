@@ -48,6 +48,7 @@ function Header() {
           <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
           </Nav.Item>
+
           <Nav.Item>
             <Nav.Link
               as={Link}
@@ -65,6 +66,16 @@ function Header() {
               onClick={() => updateExpanded(false)}
             >
               Projects
+            </Nav.Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="/blog"
+              onClick={() => updateExpanded(false)}
+            >
+              Blogs
             </Nav.Link>
           </Nav.Item>
 

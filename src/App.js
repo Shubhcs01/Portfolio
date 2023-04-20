@@ -5,9 +5,10 @@ import Preloader from '../src/components/Pre'
 import Home from './pages/Home.js'
 import About from './pages/About'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -30,6 +31,7 @@ function App() {
             <Route path='/about' element={<About />}></Route>
             <Route path='/project' element={<Project />}></Route>
             <Route path='/contact' element={<Contact />}></Route>
+            <Route path='/blog' element={<Blog />}></Route>
           </Routes>
         {/* </div> */}
       </Router>
