@@ -11,7 +11,7 @@ function Contactpage() {
         <button
           className='contactbtn'
           onClick={() => {
-            window.open("https://wa.me/+96666666884");
+            window.location.href = "mailto:shubhcs01@gmail.com";
           }}
         >Say Hello</button>
         <span></span>
