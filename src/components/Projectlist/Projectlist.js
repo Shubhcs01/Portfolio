@@ -3,8 +3,12 @@ import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
 import moviego from '../../Assets/moviego.png'
-import reelify from '../../Assets/reelify-1.png'
+import reelify from '../../Assets/reelify-2.png'
 import nameit from '../../Assets/nameit.png'
+import msexcel from '../../Assets/msexcel.png'
+import eduhack from '../../Assets/eduhub-1.png'
+import eduConf from '../../Assets/eduhub-2.png'
+import eduWin from '../../Assets/eduhub-3.png'
 
 function Projectlist() {
   return (
@@ -30,11 +34,9 @@ function Projectlist() {
                 imgPath={nameit}
                 isBlog={false}
                 title="Name It"
-                description="Name-It is a Web application that generates more than 100
-                awesome names for your next startup or project based on the given
-                keyword and also tells the user whether the domain name is available
-                or not. If the domain name is available it re-directs you to namecheap.com
-                website on one-click. HTML, CSS, and ReactJS used to build this app."
+                description="Name-It is a name suggestion Web application built using React JS. It generates
+                awesome names for your startup or project based on the keyword provided and tells the user whether the domain name is available
+                or not. If the domain name is available it re-directs you to namecheap.com"
               />
             </Col>
 
@@ -48,6 +50,47 @@ function Projectlist() {
                 others. It Includes features like Real-time posts, likes, comments, shares, reels,
                 loginand signUp. It was built with ReactJS, NodeJS, and Firebase."
                 ghLink="https://github.com/Shubhcs01/Reelify"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={msexcel}
+                isBlog={false}
+                title="MS-Excel UI Clone"
+                description="Clone of Microsoft Excel built to enhance my HTML, CSS and JavaScript knowledge."
+                ghLink="https://github.com/Shubhcs01/MsExcelClone"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={eduWin}
+                isBlog={false}
+                title="EduHub Winter Camp Website"
+                description="A Responsive Website built for 21 days winter camp organized by EduHub Community and registered by 5000+ participants. Technology used are HTML/CSS and JavaScript."
+                ghLink="https://github.com/Eduhub-Community/eduhub-winter-cohort1.0
+                "
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={eduhack}
+                isBlog={false}
+                title="EduHack"
+                description="A responsive Website built for EduHub Community's Hackathon in a short duration of 2 hours. Technology used are HTML/CSS and JavaScript."
+                ghLink="https://github.com/Eduhub-Community/eduhub-hackathon"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={eduConf}
+                isBlog={false}
+                title="Bug Fixed"
+                description="Fixed bug of the main event website of EduHub Community. Technology used are HTML/CSS and JavaScript."
+                ghLink="https://github.com/Eduhub-Community/conference"
               />
             </Col>
 

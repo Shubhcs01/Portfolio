@@ -13,7 +13,7 @@ function Contactpage() {
           onClick={() => {
             window.location.href = "mailto:shubhcs01@gmail.com";
           }}
-        >Say Hello</button>
+        >Say Hello!</button>
         <span></span>
         <hr className='line' />
         <p className='copyright'>© Copyright 2023.
