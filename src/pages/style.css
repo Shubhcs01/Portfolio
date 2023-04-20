@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
 
+
 /* Header style */
 
 .navbar {
@@ -272,44 +273,31 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 .aboutpagebackground {
   width: 100%;
   height: 100%;
-  background-color: #4158d0;
-  background-image: linear-gradient(
+  background-color: black;
+  /* background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
-  padding-top: 110px;
+  ); */
+  padding-top: 6rem;
 }
 .textbackground {
   width: 100%;
   height: 100%;
   padding: 1rem;
-  background-color: transparent;
+  color: white;
+  /* background-color: transparent; */
   border-radius: 15px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  box-shadow: white !important;
 }
 .aboutmetext {
   font-size: 2em !important;
-  color: #191919 !important;
+  color: #feec00 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
-.aboutmetext span:hover {
-  display: inline-block;
-  transition: all 500ms;
-  color: #fff;
-  animation: vibrate 30ms linear infinite forwards;
-}
-@keyframes vibrate {
-  0% {
-    transform: translateX(-1px) translateY(1px);
-  }
-  100% {
-    transform: translateX(1px) translateY(-2px);
-  }
-}
+
 .aboutdetails {
   font-size: 1.1em !important;
 }
@@ -324,7 +312,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 .skilllist li:hover {
   transform: scale(1.05);
   transition: 5ms;
-  color: #e8e8e8;
+  color: #feec00;
 }
 .webimage {
   max-width: 500px;
@@ -427,15 +415,16 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 /* Contactpage Style */
 .contactbackground {
   width: 100%;
-  height: 100vh;
-  background-color: #4158d0;
-  background-image: linear-gradient(
+  height: 106vh;
+  background-color: black;
+  /* background-image: linear-gradient(
     43deg,
     #4158d0 0%,
     #c850c0 46%,
     #ffcc70 100%
-  );
+  ); */
   padding-top: 110px;
+  color: white;
 }
 .contacthead {
   padding-top: 3rem;
@@ -456,12 +445,14 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   margin: 0 auto;
   width: 150px;
   height: 50px;
-  border: solid 2px;
+  border: #feec00 solid 1px;
   background-color: transparent;
+  color: white;
   letter-spacing: 2px;
 }
 .contactbtn:hover {
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: #feec00;
+  color: black;
 }
 .line {
   margin-top: 11rem;
