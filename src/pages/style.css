@@ -13,11 +13,13 @@
   padding: 0.5rem 3rem !important;
   /* font-size: 1.3rem !important; */
 }
+
 .sticky {
   transition: all 0.3s ease-out 0s !important;
   /* box-shadow: 0px 10px 10px 0px rgba(47, 11, 227, 0.171) !important; */
   backdrop-filter: blur(15px) !important;
 }
+
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -71,7 +73,8 @@
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
-.logo{
+
+.logo {
   background-image: url(../Assets/logo5trans.png);
   background-size: cover;
   width: 90px;
@@ -86,9 +89,11 @@
   padding-right: 1rem !important;
   padding-left: 1.5rem !important;
 }
+
 .navbar-nav .nav-link:hover {
   color: #feec00 !important;
 }
+
 .resumebtn {
   margin-left: 30px;
   border-radius: 25px;
@@ -105,9 +110,11 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     padding: 1rem 0rem !important;
     background-color: transparent !important;
   }
+
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+
   .responsive-navbar {
     width: 100%;
     height: 250px;
@@ -121,11 +128,13 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
       #ffcc70 100%
     ); */
   }
+
   .nav-link {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .resumebtn {
     width: 150px;
     display: block;
@@ -148,15 +157,20 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     #ffcc70 100%
   ); */
 }
+
 .row {
   padding-top: 80px;
 }
 
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
@@ -164,38 +178,50 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
+
+  /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
   }
 }
+
 .Typewriter__wrapper {
   font-size: 2.0em !important;
   color: #feec00 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: white !important;
 }
+
 .headtext {
   padding-top: 120px;
   font-size: 2.4em !important;
@@ -203,12 +229,14 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+
 .nametext {
   font-size: 2.0em !important;
   color: white !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+
 .imagedeveloper {
   margin-top: 50px;
   max-width: 398px;
@@ -218,6 +246,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   background-position: center;
   border-radius: 40%;
 }
+
 .socailmediabtn {
   margin-top: 2rem;
   width: 90px;
@@ -227,11 +256,13 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   border-radius: 15px;
   color: white;
 }
+
 .socailmediabtn:hover {
   color: black;
   background-color: #feec00;
   /* box-shadow: rgba(225, 218, 218, 0.45) 0px 5px 15px !important; */
 }
+
 .icon {
   font-size: 30px;
 }
@@ -241,6 +272,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     width: 100%;
     height: 100%;
   }
+
   .row {
     padding-top: 50px;
   }
@@ -248,21 +280,26 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   .Typewriter__wrapper {
     font-size: 1.9em !important;
   }
+
   .Typewriter__cursor {
     font-size: 2.2em !important;
   }
+
   .headtext {
     padding-top: 100px;
     font-size: 2em !important;
   }
+
   .nametext {
     font-size: 2.4em !important;
   }
+
   .imagedeveloper {
     margin-top: 50px;
     max-width: 420px;
     max-height: 400px;
   }
+
   .socailmediabtn {
     margin-top: 1rem;
   }
@@ -282,6 +319,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   ); */
   padding-top: 6rem;
 }
+
 .textbackground {
   width: 100%;
   height: 100%;
@@ -291,6 +329,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   border-radius: 15px;
   box-shadow: white !important;
 }
+
 .aboutmetext {
   font-size: 2em !important;
   color: #feec00 !important;
@@ -301,19 +340,23 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 .aboutdetails {
   font-size: 1.1em !important;
 }
+
 .skilllist li {
   letter-spacing: 1px;
   font-family: "Exo 2", sans-serif;
 }
+
 .skilllist {
   font-weight: 600;
   list-style-type: "⮞  ";
 }
+
 .skilllist li:hover {
   transform: scale(1.05);
   transition: 5ms;
   color: #feec00;
 }
+
 .webimage {
   max-width: 500px;
   height: 350px;
@@ -321,11 +364,13 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   background-size: cover;
   background-position: center;
 }
+
 @media (max-width: 767px) {
   .aboutpagebackground {
     width: 100%;
     height: 100%;
   }
+
   .textbackground {
     display: block;
     margin: 0 auto;
@@ -346,10 +391,12 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     #ffcc70 100%
   ); */
 }
+
 .project-section {
   position: relative !important;
   padding-top: 10px !important;
 }
+
 .project-card {
   padding-top: 20px;
   padding-bottom: 50px !important;
@@ -369,6 +416,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   height: 100% !important;
   border-radius: 15px;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -376,7 +424,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
 
-.card-title{
+.card-title {
   color: #feec00;
 }
 
@@ -386,6 +434,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   /* opacity: 0.8 !important; */
   border-radius: 30px !important;
 }
+
 .viewbtn {
   display: flex;
   align-items: center;
@@ -407,13 +456,14 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   background-color: #feec00;
   background-image: linear-gradient(43deg, #feec00 0%, #feec00 100%);
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 
 @media (max-width: 767px) {
-  .project-section{
+  .project-section {
     padding-top: 40px !important;
   }
 }
@@ -432,6 +482,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   padding-top: 110px;
   color: white;
 }
+
 .contacthead {
   padding-top: 3rem;
   text-align: center;
@@ -439,6 +490,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 .contactpara {
   padding-top: 1rem;
   text-align: center;
@@ -446,6 +498,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   letter-spacing: 1px;
   padding-bottom: 1rem;
 }
+
 .contactbtn {
   display: block;
   margin: 0 auto;
@@ -456,42 +509,48 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   color: white;
   letter-spacing: 2px;
 }
+
 .contactbtn:hover {
   background-color: #feec00;
   color: black;
 }
+
 .line {
   margin-top: 11rem;
 }
+
 .copyright {
   padding: 1px;
   text-align: center;
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.copyright span{
+
+.copyright span {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 @media (max-width: 767px) {
   .line {
     margin-top: 8rem;
   }
+
   .contactpara br {
     display: none;
   }
 }
 
 /* blog page  */
-.blogpage{
-background-color: black;
-width: 100%;
-height: 100vh;
-color: white;
-padding-top: 8rem;
+.blogpage {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding-top: 8rem;
 }
 
-.blogCard{
+.blogCard {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -502,20 +561,61 @@ padding-top: 8rem;
   margin-top: -4rem;
 }
 
-.blogCard>h2{
+.blogCard>h2 {
   padding: 2rem;
 }
 
-.blogImg{
+.blogImg {
   width: 5rem;
   height: 5rem;
   border-radius: 50px;
 }
 
-.blogBtn{
-  height: 2rem;
-  width: 10rem;
+.blogBtn {
+  /* height: 2rem;
+  width: 10rem; */
+  padding: 0.5rem;
   border: 1px solid #feec00;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
   margin-right: 1rem;
   /* margin-top: 5%; */
+}
+
+.blogBtn:hover {
+  background-color: #feec00;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .row {
+    padding-top: 80px;
+  }
+
+  .blogCard {
+    height: 10rem;
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  .blogImg {
+    position: absolute;
+    left: 5%;
+    top: 24%;
+  }
+
+  .blogCard>h2 {
+    position: absolute;
+    left: 23%;
+    bottom: 20%;
+    padding: 1rem;
+  }
+
+  .blogBtn{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+  }
 }
