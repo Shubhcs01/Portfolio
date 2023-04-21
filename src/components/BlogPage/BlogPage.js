@@ -9,7 +9,7 @@ function BlogPage() {
     return (
         <div className='blogpage'>
             <Container>
-                <Row>
+                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <div className='blogCard'>
                         <img className='blogImg' src={gfg}></img>
                         <h2>Difference Between poll() and remove() method of Queue Interface in Java</h2>
@@ -17,9 +17,7 @@ function BlogPage() {
                             Read
                         </button>
                     </div>
-                </Row>
-
-                <Row>
+              
                     <div className='blogCard'>
                         <img className='blogImg' src={medium}></img>
                         <h2>Basic concepts and tasks to get started with Linux</h2>
@@ -27,9 +25,7 @@ function BlogPage() {
                             Read
                         </button>
                     </div>
-                </Row>
-
-                <Row>
+                
                     <div className='blogCard'>
                         <img className='blogImg' src={medium}></img>
                         <h2>Step-by-step Guide on How To Start an Open Source Contribution</h2>

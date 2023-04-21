@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 html {
+  background-color: black;
   scroll-behavior: smooth;
 }
 * {
@@ -14,8 +15,8 @@ html {
   /* cursor: none; */
 }
 #no-scroll {
-  overflow: hidden;
-  height: 100vh;
+  /* overflow: hidden; */
+  /* height: 100vh; */
 }
 
 #preloader {
