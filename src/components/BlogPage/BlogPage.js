@@ -17,6 +17,14 @@ function BlogPage() {
                             Read
                         </Button>
                     </div>
+
+                    <div className='blogCard'>
+                        <img className='blogImg' src={gfg}></img>
+                        <h2>Passing Strings By Reference in Java</h2>
+                        <Button className="blogBtn" href="https://www.geeksforgeeks.org/passing-strings-by-reference-in-java/" target="_blank">
+                            Read
+                        </Button>
+                    </div>
               
                     <div className='blogCard'>
                         <img className='blogImg' src={medium}></img>
