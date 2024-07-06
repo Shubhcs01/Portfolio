@@ -238,13 +238,13 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 }
 
 .imagedeveloper {
-  margin-top: 50px;
+  margin-top: 100px;
   max-width: 398px;
   height: 400px;
-  background-image: url(../Assets/profile-pic.png);
+  background-image: url(../Assets/me1.png);
   background-size: cover;
   background-position: center;
-  border-radius: 40%;
+  border-radius: 100%;
 }
 
 .socailmediabtn {
@@ -295,6 +295,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   }
 
   .imagedeveloper {
+    border-radius: 30%;
     margin-top: 50px;
     max-width: 420px;
     max-height: 400px;

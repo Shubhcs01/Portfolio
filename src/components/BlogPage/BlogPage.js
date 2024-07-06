@@ -11,7 +11,7 @@ function BlogPage() {
             <Container>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <div className='blogCard'>
-                        <img className='blogImg' src={gfg}></img>
+                        <img className='blogImg' src={gfg} alt="gfgImage"></img>
                         <h2>Difference Between poll() and remove() method of Queue Interface in Java</h2>
                         <Button className="blogBtn" href="https://www.geeksforgeeks.org/difference-between-poll-and-remove-method-of-queue-interface-in-java/" target="_blank">
                             Read
@@ -19,7 +19,7 @@ function BlogPage() {
                     </div>
 
                     <div className='blogCard'>
-                        <img className='blogImg' src={gfg}></img>
+                        <img className='blogImg' src={gfg} alt="gfgImage"></img>
                         <h2>Passing Strings By Reference in Java</h2>
                         <Button className="blogBtn" href="https://www.geeksforgeeks.org/passing-strings-by-reference-in-java/" target="_blank">
                             Read
@@ -27,7 +27,7 @@ function BlogPage() {
                     </div>
               
                     <div className='blogCard'>
-                        <img className='blogImg' src={medium}></img>
+                        <img className='blogImg' src={medium} alt="mediumImage"></img>
                         <h2>Basic concepts and tasks to get started with Linux</h2>
                         <Button className="blogBtn" href="https://medium.com/@shubh4amg/basic-concepts-and-tasks-to-get-started-with-linux-b6ef0b713616" target="_blank">
                             Read
@@ -35,7 +35,7 @@ function BlogPage() {
                     </div>
                 
                     <div className='blogCard'>
-                        <img className='blogImg' src={medium}></img>
+                        <img className='blogImg' src={medium} alt="mediumImage"></img>
                         <h2>Step-by-step Guide on How To Start an Open Source Contribution</h2>
                         <Button className="blogBtn" href="https://medium.com/@shubh4amg/step-by-step-guide-on-how-to-start-an-open-source-contribution-db7f1a47f917" target="_blank">
                             Read

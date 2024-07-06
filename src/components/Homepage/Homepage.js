@@ -24,7 +24,7 @@ function Home() {
             }}
               className='socailmediabtn'><AiFillGithub className='icon' /></button>
             <button onClick={() => {
-              window.open("https://www.linkedin.com/in/shubhamabes/");
+              window.open("https://www.linkedin.com/in/shubham-gupta-b521071b3");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
             <button onClick={() => {
@@ -32,7 +32,7 @@ function Home() {
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
             <button onClick={() => {
-              window.open("https://instagram.com/shubham_gupta_028");
+              window.open("https://instagram.com/");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
