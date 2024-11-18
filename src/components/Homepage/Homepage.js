@@ -32,12 +32,12 @@ function Home() {
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
             <button onClick={() => {
-              window.open("https://instagram.com/");
+              window.open("https://instagram.com/Shub4amg");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
 
-          <Col md={5}>
+          <Col>
             <div className="imagedeveloper">
             </div>
           </Col>

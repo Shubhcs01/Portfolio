@@ -1,47 +1,55 @@
-import React from 'react'
+import React from 'react';
 import '../../pages/style.css';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
 
-
-function Aboutpage() {
+function AboutPage() {
     return (
-        <div className='aboutpagebackground'>
+        <div className="aboutpage-background">
             <Container>
-                <Row className='textbackground'>
-                    <Col md={7} >
-                        <h3 className='aboutmetext' >About <span>Me</span></h3>
-                        <p className='aboutdetails'>I'm a self-taught Full Stack Developer from India. I build dynamic Web Apps with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices.
+                <Row className="text-background">
+                    {/* About Me Section */}
+                    <Col md={7}>
+                        <h3 className="about-me-text">
+                            About <span className="highlight-text">Me</span>
+                        </h3>
+                        <p className="about-details">
+                        I'm a self-taught Full Stack Developer and Computer Science graduate with 1 year of professional experience at Autodesk and Uolo EdTech. Skilled in Java, Spring Boot, and the MERN stack, I specialize in building dynamic, responsive web applications with a focus on accessibility and seamless user experiences. I've solved 500+ DSA problems on LeetCode and GFG, contributed to open-source projects with Meshery and Layer5, and developed several impactful projects. Passionate about problem-solving and clean, maintainable code, I’m always eager to learn and create scalable solutions.
                         </p>
-                        <ul className='skilllist'>
+                        {/* Skills Section */}
+                        <div className="skills-section">
+                            <h3 className="skills-heading" style={{ color: "#feec00" }}>Skills</h3>
                             <Row>
-                                <h3 style={{color:"#feec00"}}>Skills</h3>
-                                <Col lg={7}>
-                                    <li>HTML/CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Bootsrap</li>
-                                    <li>Git/Github</li>
-                                    <li>NodeJs</li>
-                                    <li>ExpressJs</li>
-                                    
+                                <Col lg={6}>
+                                    <ul className="skill-list">
+                                        <li>HTML/CSS/MUI</li>
+                                        <li>JavaScript</li>
+                                        <li>Bootstrap</li>
+                                        <li>Git/GitHub</li>
+                                        <li>Node.js/Express.js</li>
+                                        <li>Microservices</li>
+                                    </ul>
                                 </Col>
-                                <Col md={5}>
-                                    <li>ReactJs</li>
-                                    <li>Redux</li>
-                                    <li>Material-ui</li>
-                                    <li>Mongo DB</li>
-                                    <li>JAVA</li>
-                                    <li>Spring Boot</li>
+                                <Col lg={6}>
+                                    <ul className="skill-list">
+                                        <li>React.js</li>
+                                        <li>Redux</li>
+                                        <li>Amazon S3</li>
+                                        <li>MongoDB</li>
+                                        <li>Java</li>
+                                        <li>Spring Boot</li>
+                                    </ul>
                                 </Col>
                             </Row>
-                        </ul>
+                        </div>
                     </Col>
+                    {/* Web Image Section */}
                     <Col md={5}>
-                        <div className="webimage"></div>
+                        <div className="web-image"></div>
                     </Col>
                 </Row>
             </Container>
         </div>
-    )
+    );
 }
 
-export default Aboutpage
+export default AboutPage;

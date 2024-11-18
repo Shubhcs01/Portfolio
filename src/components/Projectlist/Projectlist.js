@@ -9,6 +9,7 @@ import msexcel from '../../Assets/msexcel.png'
 import eduhack from '../../Assets/eduhub-1.png'
 import eduConf from '../../Assets/eduhub-2.png'
 import eduWin from '../../Assets/eduhub-3.png'
+import taskManager from '../../Assets/task-manager.png'
 
 function Projectlist() {
   return (
@@ -40,6 +41,19 @@ function Projectlist() {
               />
             </Col>
 
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={taskManager}
+                isBlog={false}
+                title="Task Manager"
+                description="A simple task management system built with React and Next.js, 
+                featuring server-side rendering (SSR) for efficient initial task loading. It allows users to add, edit, delete, and mark tasks as completed, 
+                with tasks dynamically sorted by color-coded priorities. (high, medium, low)."
+                ghLink="https://github.com/Shubhcs01/Task-manager-App"
+              />
+            </Col>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={reelify}
@@ -58,7 +72,8 @@ function Projectlist() {
                 imgPath={msexcel}
                 isBlog={false}
                 title="MS-Excel UI Clone"
-                description="Clone of Microsoft Excel built to enhance my HTML, CSS and JavaScript knowledge."
+                description="The MS Excel Clone is a frontend project built with HTML, CSS, and JavaScript, replicating basic spreadsheet functionality. 
+                It includes a grid-based layout for cell editing, formatting, and navigation. The design is responsive and interactive, offering a simplified Excel-like experience."
                 ghLink="https://github.com/Shubhcs01/MsExcelClone"
               />
             </Col>

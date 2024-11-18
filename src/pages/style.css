@@ -238,13 +238,17 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 }
 
 .imagedeveloper {
-  margin-top: 100px;
-  max-width: 398px;
-  height: 400px;
   background-image: url(../Assets/me1.png);
   background-size: cover;
   background-position: center;
-  border-radius: 100%;
+  border-radius: 48%;
+  margin-left: 19%;
+  max-width: 420px;
+  max-height: 400px;
+  margin-bottom: 33px;
+  margin-top: 100px;
+  width: 100%;
+  height: 390px;
 }
 
 .socailmediabtn {
@@ -295,10 +299,15 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   }
 
   .imagedeveloper {
-    border-radius: 30%;
+    border: 2px dotted #feec00;
+    border-radius: 48%;
     margin-top: 50px;
+    margin-left: 19%;
+    width: 55%;
+    height: 307px;
     max-width: 420px;
     max-height: 400px;
+    margin-bottom: 33px;
   }
 
   .socailmediabtn {
@@ -308,7 +317,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
 
 /* Aboutpage style */
 
-.aboutpagebackground {
+.aboutpage-background {
   width: 100%;
   height: 100%;
   background-color: black;
@@ -321,62 +330,92 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
   padding-top: 6rem;
 }
 
-.textbackground {
+.text-background {
   width: 100%;
   height: 100%;
-  padding: 1rem;
+  padding: 30px;
   color: white;
   /* background-color: transparent; */
   border-radius: 15px;
   box-shadow: white !important;
 }
 
-.aboutmetext {
+.about-me-text {
   font-size: 2em !important;
   color: #feec00 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
+  margin-bottom: 20px;
 }
 
-.aboutdetails {
+.highlight-text {
+  color: white;
+}
+
+.about-details {
   font-size: 1.1em !important;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-.skilllist li {
-  letter-spacing: 1px;
+.skills-section {
+  margin-top: 20px;
+}
+
+.skills-heading {
+  font-size: 1.5rem;
+  margin-bottom: -55px;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
   font-family: "Exo 2", sans-serif;
+  letter-spacing: 1px;
+  list-style-type: ">  ";
+  /* font-weight: 600; */
 }
 
-.skilllist {
-  font-weight: 600;
-  list-style-type: "⮞  ";
+.skill-list li {
+  font-size: 1rem;
+  margin-bottom: 8px;
 }
 
-.skilllist li:hover {
+.skill-list li:hover {
   transform: scale(1.05);
   transition: 5ms;
   color: #feec00;
 }
 
-.webimage {
+/* .webimage {
   max-width: 500px;
   height: 350px;
   background-image: url(../Assets/web-removebg-preview.png);
   background-size: cover;
   background-position: center;
+} */
+
+.web-image {
+  background-image: url(../Assets/web-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
 }
 
 @media (max-width: 767px) {
-  .aboutpagebackground {
+  .aboutpage-background {
     width: 100%;
     height: 100%;
   }
 
-  .textbackground {
+  .text-background {
     display: block;
     margin: 0 auto;
   }
 }
+
 
 /* Projectpage style */
 
@@ -645,4 +684,25 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     bottom: 5%;
     left: 50%;
   }
+}
+
+/* .image-developer{
+  width: 100%;
+  height: 100%;
+} */
+
+@media (max-width: 390px) {
+
+  .imagedeveloper{
+    border: 2px dotted #feec00;
+    border-radius: 48%;
+    margin-top: 50px;
+    margin-left: 19%;
+    width: 67%;
+    height: 236px;
+    max-width: 420px;
+    max-height: 400px;
+    margin-bottom: 33px;
+  }
+  
 }
